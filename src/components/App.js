@@ -15,6 +15,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
+        <ButtonClickCounter />
         <button onClick={handleClick}>Click me</button>
       <p>Button clicked {count} times</p>
     </div>
